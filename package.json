@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-slang",
+  "version": "1.0.0",
+  "description": "Vite plugin to compile and import Slang shaders",
+  "main": "dist/src/index.js",
+  "author": "jormeli",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && cp slang-wasm/slang-wasm.wasm dist/slang-wasm/"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "slang",
+    "wgsl",
+    "glsl"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "rollup": "^4.29.2",
+    "vite": "^6.0.7"
+  }
+}
