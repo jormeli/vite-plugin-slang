@@ -50,7 +50,6 @@ async function loadModule(
         throw new Error(`Could not resolve import: ${_imp}`)
       }
       imp = parent
-      console.log(imp)
     }
     if (!dependencies.includes(imp)) {
       const [_modules] = await loadModule(Slang, session, imp, root, dependencies)

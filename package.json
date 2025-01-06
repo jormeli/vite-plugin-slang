@@ -1,7 +1,12 @@
 {
   "name": "vite-plugin-slang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin to compile and import Slang shaders",
+  "homepage": "https://github.com/jormeli/vite-plugin-slang#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jormeli/vite-plugin-slang.git"
+  },
   "main": "dist/src/index.js",
   "author": "jormeli",
   "license": "MIT",
